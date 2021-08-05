@@ -23,6 +23,11 @@
 		} else {
 			$(".fixed-top").removeClass("top-nav-collapse");
 		}
+		if ($(".navbar").offset().top > 20) {
+			$(".fixed-top").removeClass("hidden-nav");
+		} else {
+			$(".fixed-top").addClass("hidden-nav");
+		}
     });
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin

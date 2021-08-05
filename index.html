@@ -35,10 +35,10 @@
     
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top hidden-nav">
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logoplus.svg" alt="logo"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,17 +50,17 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#company" id="highlightable">Company <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#company-blurb" id="highlightable">Company <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#work">Work</a>
                 </li>
-                <li class="nav-item">
+                <!---<li class="nav-item">
                     <a class="nav-link page-scroll" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">Contact</a>
                 </li>
@@ -77,45 +77,123 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
-                            <h1>Angotti & Reilly</h1>
-                            <p class="p-heading p-large">For over 35 years, we've built San Francisco to last.</p>
+                            <!-- <h1>.      </h1> -->
                         </div>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </header> 
     <!-- end of header -->
 
 
     <!-- Start company -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-1 title-column title-column-longer">
-                    <div class="title-wrapper"><h1 class="section-title text-nowrap">Our Team</h1></div></div>
+            <div class="col-lg-1 title-column">
+                    <div class="title-wrapper"><h1 class="section-title text-nowrap">Our Value</h1></div></div>
             <div class="col-lg-11">
-                <div id="company" class="basic-1">
+                <div id="company-blurb" class="basic-1">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5">
                                 <div class="text-container">
                                     <h2>Delivering outstanding service and results for 35 years</h2>
-                                    <p>Brief history of the company and "elevator pitch" can go here</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus euismod quis viverra. A lacus vestibulum sed arcu non odio euismod. </p>
+                                    <p>We have successfully completely thousands of projects ranging from top-of-market residential to historical renovations. We have vast experience with Office, Retail, Commercial, Hospitality, Restaurants, religious, educational and institutional facilities from remodeling and modernization to new construction.</p>
+                                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus euismod quis viverra. A lacus vestibulum sed arcu non odio euismod. </p>
                                     <p class="testimonial-text">"A quote from our CEO"</p>
-                                    <div class="testimonial-author">Jim Reilly - CEO</div>
+                                    <div class="testimonial-author">Jim Reilly - CEO</div> -->
                                 </div> 
                             </div>
                             <div class="col-lg-7">
                                 <div class="image-container">
-                                    <img class="img-fluid" src="images/crane.jpg" alt="alternative">
+                                    <img class="img-fluid" src="images/tunnel.jpg" alt="construction crew inspecting an underground tunnel">
                                 </div> 
                             </div> 
                         </div> 
                     </div> 
-                </div> 
+                </div>
+                <div class="counter" id="by-the-numbers">
+                    <div class="container">
+                        <div class="row" >
+                            <div class="col-lg-5 col-xl-6">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/planreview.jpg" alt="Two managers of Angotti & Reilly review project plans">
+                                </div> 
+                            </div>
+                            <div class="col-lg-7 col-xl-6">
+                                <div class="text-container">
+                                    <h2>By The Numbers</h2>
+                                    <!--<div id="counter">
+                                        <ul class="list-unstyled li-space-lg">
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="counter-value number-count" data-count="35">35</div>
+                                                <div class="counter-info">years serving the San Francisco Bay Area</div>
+                                            </li>
+                                            <br>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="counter-info">Over</div>
+                                                <div class="counter-value number-count" data-count="6500">6500</div>
+                                                <div class="counter-info">succesful project completions</div>
+                                            </li>
+                                            <br>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="counter-info">Over</div>
+                                                <div class="counter-value number-count" data-count="6500">6500</div>
+                                                <div class="counter-info">succesful project completions</div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>-->
 
-                <div class="basic-2">
+                                    <!-- Counter-->
+                                    <div id="counter">
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="35">1</div>
+                                            <div class="counter-info">years serving the San Francisco Bay Area</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="6500">2</div>
+                                            <div class="counter-info">successful project completions</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="100">3</div>
+                                            <div class="counter-info">million dollars in business</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="2000">4</div>
+                                            <div class="counter-info">contractor relationships, <br>ensuring reliability and best pricing</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="50">5</div>
+                                            <div class="counter-info">million dollar bonding capacity</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="10">5</div>
+                                            <div class="counter-info">million dollar liability insurance coverage</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="0">500</div>
+                                            <div class="counter-info">performance bond claims</div>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="counter-value number-count" data-count="0">500</div>
+                                            <div class="counter-info">complaints to California Contract Licensing Board</div>
+                                        </div>
+
+                                    </div>
+                                    <!--end of counter -->
+
+                                </div>       
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+                 
+                <!--<div class="basic-2">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -179,55 +257,10 @@
                                     <p class="p-large">Matty Salamy-Herrera</p>
                                     <p class="job-title">Title and Bio can go here</p>
                                 </div>    
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
-                    </div> <!-- end of container -->
-                </div> 
-                <div class="counter">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-5 col-xl-6">
-                                <div class="image-container">
-                                    <img class="img-fluid" src="images/project8a.jpg" alt="alternative">
-                                </div> 
-                            </div>
-                            <div class="col-lg-7 col-xl-6">
-                                <div class="text-container">
-                                    <h2>We lead the industry in professionalism, stability, and service</h2>
-                                    <p>Id velit ut tortor pretium. Lobortis elementum nibh tellus molestie nunc non blandit massa.</p>
-                                    <ul class="list-unstyled li-space-lg">
-                                        <li class="media">
-                                            <i class="fas fa-square"></i>
-                                            <div class="media-body">Value proposition 1</div>
-                                        </li>
-                                        <li class="media">
-                                            <i class="fas fa-square"></i>
-                                            <div class="media-body">Value proposition 2</div>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Counter -->
-                                    <div id="counter">
-                                        <div class="cell">
-                                            <div class="counter-value number-count" data-count="35">10</div>
-                                            <div class="counter-info">Years Serving <br> San Francisco</div>
-                                        </div>
-                                        <div class="cell">
-                                            <div class="counter-value number-count" data-count="2500">1</div>
-                                            <div class="counter-info">Satisfied<br>Clients</div>
-                                        </div>
-                                        <div class="cell">
-                                            <div class="counter-value number-count" data-count="100">1</div>
-                                            <div class="counter-info">Million Dollars<br>In Business</div>
-                                        </div>
-                                    </div>
-                                    <!-- end of counter -->
-
-                                </div> <!-- end of text-container -->      
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
-                    </div> <!-- end of container -->
-                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> -->
             </div>
         </div>
     </div>
@@ -241,14 +274,14 @@
                 <!-- Former projects section -->
                 <div id="work" class="filter">
                     <div class="container">
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-lg-12">
                                 <h3>We're proud of the jobs we've delivered for our clients. Click a project to see pictures, details, and client testimonials.</h2>
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
+                            </div>
+                        </div> end of row -->
                         <div class="row">
                             <div class="col-lg-12">
-                                <!-- Filter -->
+                                <!-- Filter 
                                 <div class="button-group filters-button-group">
                                     <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
                                     <a class="button" data-filter=".commercial"><span>Commercial</span></a>
@@ -258,39 +291,39 @@
                                     <a class="button" data-filter=".restaurant"><span>Restaurant</span></a>
                                     <a class="button" data-filter=".retail"><span>Retail</span></a>
 
-                                </div> <!-- end of button group -->
+                                </div> end of button group -->
                                 <div class="grid">
                                     <div class="element-item commercial public-works">
-                                        <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Luthor Tower Retrofit</span></div><img class="img-fluid" src="images/project1.jpg" alt="Exterior photo of Luthor Tower in downtown Metropolis"></a>
+                                        <a class="popup-with-move-anim" ><div class="element-item-overlay"><span class="overlay-text">Hotel CaZa<br><br><small>$18,000,000 remodel and rebranding at Fisherman's Wharf</small></span></div><img class="img-fluid" src="images/caza.jpg" alt="Interior photo of Caza Hotel Lobby"></a>
                                     </div>
                                     <div class="element-item residential">
-                                        <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>The Winstead Luxury Apartments</span></div><img class="img-fluid" src="images/project2.jpeg" alt="Exterior photo of Winstead Luxury Apartment building"></a>
+                                        <a class="popup-with-move-anim" ><div class="element-item-overlay"><span class="overlay-text">Fairmont Hotel, <br>San Francisco<br><small>5-month, 590-room remodel of historic occupied hotel</small></span></div><img class="img-fluid" src="images/fairmont.jpg" alt="Interior photo of a hotel room at the Fairmont"></a>
                                     </div>
                                     <div class="element-item hospitality restaurant retail">
-                                        <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>Empire Hotel Lobby</span></div><img class="img-fluid" src="images/project3b.jpg" alt="Interior photo of Empire Hotel lobby, which is very beautiful"></a>
+                                        <a class="popup-with-move-anim"><div class="element-item-overlay"><span class="overlay-text">Saks Off Fifth<br><br><small>New retail tenant improvements</small></span></div><img class="img-fluid" src="images/saks.jpg" alt="Interior photo of Saks retail store"></a>
                                     </div>
                                     
                                     <div class="element-item restaurant">
-                                        <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Mangia!</span></div><img class="img-fluid" src="images/project4.png" alt="Interior photo of Mangia Restaurant."></a>
+                                        <a class="popup-with-move-anim" ><div class="element-item-overlay"><span class="overlay-text">Marshall Elementary School<br><br><small>Code upgrades and site improvements</small></span></div><img class="img-fluid" src="images/marshall.jpg" alt="Staircase and exterior of elementary school"></a>
                                     </div>
                                     <div class="element-item retail">
-                                        <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Kiwi Country</span></div><img class="img-fluid"  src="images/project5.jpg" alt="Interior photo of completed high-end retail store. It smells like roses."></a>
+                                        <a class="popup-with-move-anim" ><div class="element-item-overlay"><span class="overlay-text">Trinity Ventures<br>Palo Alto<br><small>Award-winning office tenant improvements</small></span></div><img class="img-fluid"  src="images/trinity.jpg" alt="Interior photo Trinity Ventures office"></a>
                                     </div>
                                     <div class="element-item retail commercial">
-                                        <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Orange Flagship Store</span></div><img class="img-fluid" src="images/project6.jpg" alt="alternative"></a>
+                                        <a class="popup-with-move-anim"><div class="element-item-overlay"><span class="overlay-text">Restaurant Improvements<br><br><small>New and remodel restaurants since 1985</small></span></div><img class="img-fluid" src="images/coffeeculture.jpg" alt="Interior photo of elegant coffee shop"></a>
                                     </div>
                                     <div class="element-item residential hospitality">
-                                        <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Rockefeller Hotel</span></div><img class="img-fluid" src="images/project3.jpg" alt="alternative"></a>
+                                        <a class="popup-with-move-anim" ><div class="element-item-overlay"><span class="overlay-text">Full Building Modernization<br><br><small>Marina Theater, San Francisco</small></span></div><img class="img-fluid" src="images/marina_apple.jpg" alt="Exterior of Marina Theater with integrated Walgreens and Apple Store"></a>
                                     </div>
                                     <div class="element-item public-works residential">
-                                        <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>257th Street Public Housing Renovation</span></div><img class="img-fluid" src="images/project8.jpg" alt="alternative"></a>
+                                        <a class="popup-with-move-anim"><div class="element-item-overlay"><span class="overlay-text">New Building Construction<br><br><small></small></span></div><img class="img-fluid" src="images/building.jpg" alt="Work at a construction site in San Francisco"></a>
                                     </div>
-                                </div> <!-- end of grid -->
-                                <!-- end of filter -->
+                                </div> 
                                 
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
-                    </div> <!-- end of container -->
+                                
+                            </div> 
+                        </div> 
+                    </div>
                 </div> 
 
                 <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
@@ -431,7 +464,7 @@
         </div>
     </div>
 
-    <!-- Services -->
+    <!-- Services
     <div class="container-fluid" id="services">
         <div class="row">
             <div class="col-lg-1 title-column">
@@ -445,11 +478,10 @@
                                 <div class="subhead">
                                     <h2>Decades of experience and specialized certifications enable us to offer a broader range of services than our competitors. Whatever your project needs, Angotti & Reilly can help.</h2>
                                 </div>
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
+                            </div> 
+                        </div> 
                         <div class="row">
                             <div class="col-lg-4">
-                                <!-- Card -->
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="center-icon">
@@ -511,7 +543,6 @@
                         </div> 
                         <div class="row">
                             <div class="col-lg-4">
-                                <!-- Card -->
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="center-icon">
@@ -582,13 +613,12 @@
                             </div> 
                         </div> 
                     </div>
-                </div>
-                <!-- end of services -->
-                
-                
+                </div>                
             </div>
         </div>
-    </div>
+    </div>-->
+
+    <!--pricing
 
     <div class="container-fluid" id="pricing">
         <div class="row">
@@ -644,7 +674,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 
     
@@ -659,13 +689,13 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="text-container">
-                                    <div class="section-title">Connect With Us</div>
-                                    <p>We would love to hear from you regarding your upcoming projects.</p>
+                                    <div class="section-title"><b>Connect With Us</b></div>
+                                    <p>If you would like to discuss how we could help with your project, obtain a firm estimate, or learn about our construction management and real estate development services, please contact us at:</p>
                                     <ul class="list-unstyled li-space-lg">
                                         <li class="address"><i class="fas fa-map-marker-alt"></i>2200 Jerrold Avenue, Suite E, San Francisco, CA 94124</li>
                                         <li><i class="fas fa-phone"></i><a href="tel:14155753700">415-575-3700</a></li>
                                         <li><i class="fas fa-fax"></i><a href="tel:14155751470">415-575-1470</a></li>
-                                        <li><i class="fas fa-envelope"></i><a href="mailto:email@angotti-reilly.com">email@angotti-reilly.com</a></li>
+                                        <li><i class="fas fa-envelope"></i><a href="mailto:contact@angotti-reilly.com">contact@angotti-reilly.com</a></li>
                                     </ul>
                                 
                                 </div> <!-- end of text-container -->
@@ -714,7 +744,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="text-container about">
-                        <h4>Legal Compliance</h4>
+                        <h4>Building and Engineering Contractor’s License 473263, Class A and B, Hazmat endorsement</h4>
                         <p class="white">Angotti & Reilly Inc is an equal opportunity employer and contractor. MBE, WBE, DVBE and DBE subcontractors and vendors are encouraged to contact us and to submit proposals.</p>
                     </div> 
                 </div> 
