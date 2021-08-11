@@ -671,8 +671,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    /* width: 7.0625rem; */
-	height: 4rem;
+	height: 12vh;
+	max-width: 35vw;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -1438,7 +1438,7 @@ input[type='checkbox'] {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 	opacity: 1;
 	text-align: center;
 	transition: all 0.3s;
@@ -2057,7 +2057,11 @@ a:hover.back-to-top {
 	.filter .element-item .element-item-overlay .overlay-text{
 		margin-right: 7%;
 		margin-left: 7%;
-		margin-top: 0;
+		margin-top: -15% !important;
+	}
+
+	.filter .element-item .element-item-overlay .high {
+		margin-top: -30% !important;
 	}
 	/* end of projects */
 
