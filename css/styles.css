@@ -2593,7 +2593,6 @@ a:hover.back-to-top {
   font-size: 9vh;
   margin: 0;
   padding: 0;
-  transform: translateY(-6%);
 }
 
 /* our */
@@ -2602,6 +2601,8 @@ a:hover.back-to-top {
   top: 19.85vh;
   left: 20%;
   background-color: rgb(215,215,215);
+  margin: 0;
+  padding: 0;
 }
 
 /* clients */
@@ -2611,12 +2612,16 @@ a:hover.back-to-top {
   height: 11.2vh;
   left: 30%;
   background-color: rgb(215,215,215);
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* clients font */
 .title-word-background:nth-child(2) > h1{
     font-size: 14.93vh;
-	transform: translateY(20%);
+	line-height:11.2vh;
+	margin: 0 !important;
+  	padding: 0 !important;
 }
 
 /* tell */
