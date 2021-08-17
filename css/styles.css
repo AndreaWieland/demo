@@ -2569,6 +2569,7 @@ a:hover.back-to-top {
   top: 0;
   left: 0;
   padding: 0;
+  overflow-x: hidden;
   background: rgb(215,215,215);
   background: linear-gradient(175deg, rgba(215,215,215,1) 50%, rgba(160,160,160,1) 100%);
 }
@@ -2665,8 +2666,8 @@ a:hover.back-to-top {
 
 .title-word-center> .title-word-background > h1{
   font-size: 17.666vh;
-  padding-right:0;
-  margin-right:0;
+  /* padding-right:0;
+  margin-right:0; */
   transform: translateY(30%);
 }
 
@@ -2763,4 +2764,6 @@ p.scroll{
 @media only screen and (min-width: 900px) {
   
 }
+
+
 
