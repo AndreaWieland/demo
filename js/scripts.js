@@ -4,7 +4,7 @@
 	
 	/* Preloader */
 	$(window).on('load', function() {
-		var preloaderFadeOutTime = 500;
+		var preloaderFadeOutTime = 200;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
@@ -129,7 +129,7 @@
 					countNum: countTo
 				},
 				{
-					duration: 2000,
+					duration: 2500,
 					easing: 'swing',
 					step: function() {
 					$this.text(Math.floor(this.countNum));
