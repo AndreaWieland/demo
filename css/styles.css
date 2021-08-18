@@ -2571,7 +2571,7 @@ a:hover.back-to-top {
   padding: 0;
   overflow-x: hidden;
   background: rgb(215,215,215);
-  background: linear-gradient(175deg, rgba(215,215,215,1) 50%, rgba(160,160,160,1) 100%);
+  /* background: linear-gradient(175deg, rgba(215,215,215,1) 50%, rgba(160,160,160,1) 100%); */
 }
 
 .title-word-background{
