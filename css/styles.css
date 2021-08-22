@@ -12,6 +12,9 @@ Table Of Contents:
 07. Services
 08. Details 1
 09. Details 2
+
+
+
 10. Testimonials
 11. Call Me
 12. Projects
@@ -677,6 +680,13 @@ input[type='checkbox'] {
 	-webkit-backface-visibility: hidden;
 }
 
+@media only screen and (max-width: 900px){
+	.navbar-custom .navbar-brand.logo-image img {
+		max-width: 65vw;
+		-webkit-backface-visibility: hidden;
+	}
+}
+
 .navbar-custom .navbar-brand.logo-text {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
@@ -696,6 +706,7 @@ input[type='checkbox'] {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	line-height: 100%;
 
 }
 
@@ -712,7 +723,6 @@ input[type='checkbox'] {
     height: 1px;        /*whole element is the "line", so height determines line height*/
     bottom: 0;          /*anchor to parent coords*/
     left: 0;
-    background-color: red;
     visibility: hidden;     /*hidden unless hovered*/
     transform: scaleX(0);   /*size is zero when not hovered*/
     transition: all 0.3s ease-in-out 0s;
@@ -773,7 +783,7 @@ input[type='checkbox'] {
 	height: 1px;
 	margin: 0.75rem auto 0.75rem auto;
 	border: none;
-	background-color: #b5bcc4;
+	background-color: red;
 	opacity: 0.2;
 }
 /* end of dropdown menu */
@@ -2603,7 +2613,6 @@ a:hover.back-to-top {
   animation-delay:1s;
   top: 19.85vh;
   left: 20%;
-  background-color: rgb(215,215,215);
   margin: 0;
   padding: 0;
 }
@@ -2614,7 +2623,6 @@ a:hover.back-to-top {
   top: 15.35vh;
   height: 11.2vh;
   left: 30%;
-  background-color: rgb(215,215,215);
 
 }
 
@@ -2631,7 +2639,6 @@ a:hover.back-to-top {
   border-radius:0;
   top: 28.65vh;
   left: 37%;
-  background-color: rgb(215,215,215);
 }
 
 /* the */
@@ -2639,7 +2646,6 @@ a:hover.back-to-top {
   animation-delay:1.9s;
   top: 39.7vh;
   left: 58%;
-  background-color: rgb(215,215,215);
 }
 
 /* angotti & reilly */
@@ -2661,7 +2667,6 @@ a:hover.back-to-top {
   top:0;
   margin:auto;
   padding-right:0;
-  background-color: rgb(215,215,215);
 }
 
 .title-word-center> .title-word-background > h1{
@@ -2676,7 +2681,6 @@ a:hover.back-to-top {
   animation-delay:2.8s;
   top: 68.2vh;
   left: 33%;
-  background-color: rgb(187, 187, 187);
 }
 
 /* best */
@@ -2685,12 +2689,10 @@ a:hover.back-to-top {
   top: 79.3vh;
   height: 11.2vh;
   left: 53%;
-  background-color: rgb(184, 184, 184);
 }
 
 .title-word-background:nth-child(7) > h1{
     font-size: 14.93vh;
-	transform: translateY(20%);
 }
 
 @keyframes dropin {
@@ -2726,6 +2728,7 @@ p.scroll{
   padding:0;
   /* border:0.1vh solid black; */
   border:0;
+  text-align: start;
 }
 
 .scroll{
@@ -2739,29 +2742,101 @@ p.scroll{
   text-wrap: nowrap;
 }
 
-.scroll:nth-child(5n+1){
-  animation-duration: 190s;
-}
-.scroll:nth-child(5n+4){
-  animation-duration: 170s;
-}
-.scroll:nth-child(5n+3){
-  animation-duration: 160s;
-}
- .scroll:nth-child(5n+2){
-  animation-duration: 150s;
- }
-.scroll:nth-child(5n+0){
+.scroll:nth-child(20n+0){
   animation-duration: 140s;
- }  
+}
+.scroll:nth-child(20n+1){
+animation-duration: 200s;
+}
+.scroll:nth-child(20n+2){
+animation-duration: 170s;
+}
+.scroll:nth-child(20n+3){
+animation-duration: 240s;
+}
+.scroll:nth-child(20n+4){
+animation-duration: 110s;
+}
+.scroll:nth-child(20n+5){
+animation-duration: 130s;
+}
+.scroll:nth-child(10n+6){
+animation-duration: 190s;
+}
+.scroll:nth-child(10n+7){
+animation-duration: 220s;
+}
+.scroll:nth-child(20n+8){
+animation-duration: 160s;
+}
+.scroll:nth-child(20n+9){
+animation-duration: 210s;
+}
+.scroll:nth-child(20n+10){
+animation-duration: 145s;
+}
+.scroll:nth-child(20n+11){
+ 	animation-duration: 205s;
+}
+.scroll:nth-child(20n+12){
+	animation-duration: 175s;
+}
+.scroll:nth-child(20n+13){
+	animation-duration: 245s;
+}
+.scroll:nth-child(20n+14){
+	animation-duration: 115s;
+}
+.scroll:nth-child(20n+15){
+	animation-duration: 135s;
+}
+.scroll:nth-child(10n+16){
+	animation-duration: 195s;
+}
+.scroll:nth-child(10n+17){
+	animation-duration: 225s;
+}
+.scroll:nth-child(20n+18){
+	animation-duration: 165s;
+}
+.scroll:nth-child(20n+19){
+	animation-duration: 215s;
+}
+
 
 
 @keyframes scrolltoleft {
-  0%   {transform: translateX(-5px) }
-  100% {transform: translateX(-1200px) }
+
+  100% {transform: translateX(-100vw) }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
+	.title-word-background:nth-child(1){
+		top: 20vh;
+	}
+	.title-word-background:nth-child(2){
+		left: 40%;
+		top: 17.6vh;
+	}
+	.title-word-background:nth-child(3){}
+	.title-word-background:nth-child(4){}
+	.title-word-background:nth-child(6){}
+	.title-word-background:nth-child(7){}
+
+	.title-word-background > h1{
+		font-size:8.05vh;
+	}
+	.title-word-background:nth-child(2) > h1{
+		font-size: 9vh;
+	}
+	.title-word-center> .title-word-background > h1{
+		font-size: 9vh;
+		line-height: 7vh;
+	}
+
+	.title-word-background:nth-child(7) > h1{
+		font-size: 9vh;
+	}
   
 }
 
