@@ -653,7 +653,7 @@ input[type='checkbox'] {
 .navbar-custom .nav-item .nav-link {
 	padding: 0;
 	margin: 0 0.75rem 0 0.75rem;
-	color: #fff;
+	color: rgb(94, 93, 93);
 	text-decoration: none;
 	transition: all 0.2s ease;
 	line-height: 100%;
@@ -2776,28 +2776,28 @@ animation-duration: 145s;
 	/* our */
 .title-word-background:nth-child(1){
 	animation-delay:1s;
-	top: 20.8vh;
-	left: 13%;
+	top: 17.7vh;
+	left: 11%;
   }
   
   /* clients */
   .title-word-background:nth-child(2){
 	animation-delay:1.1s;
-	top: 17.35vh;
-	left: 37%;
+	top: 14.25vh;
+	left: 34%;
   }
   
   /* tell */
   .title-word-background:nth-child(3){
 	animation-delay:1.7s;
-	top: 29.5vh;
+	top: 25.5vh;
 	left: 25%;
   }
   
   /* the */
   .title-word-background:nth-child(4){
 	animation-delay:1.9s;
-	top: 38.2vh;
+	top: 32.25vh;
 	left: 48%;
   }
   
@@ -2806,7 +2806,7 @@ animation-duration: 145s;
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	top: 50.8vh;
+	top: 41.25vh;
 	animation-delay:2.1s;
 	padding:0 10% 0 10%;
 	margin:0;
@@ -2824,14 +2824,14 @@ animation-duration: 145s;
   /* story */
   .title-word-background:nth-child(6){
 	animation-delay:2.8s;
-	top: 77.6vh;
+	top: 65.7vh;
 	left: 25%;
   }
   
   /* best */
   .title-word-background:nth-child(7){
 	animation-delay:3.2s;
-	top: 85.3vh;
+	top: 72vh;
 	height: 11.2vh;
 	left: 40%;
   }
