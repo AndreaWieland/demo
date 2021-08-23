@@ -2840,6 +2840,14 @@ animation-duration: 145s;
   }
 }
 
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+        .title-word-background:nth-child(1){
+			color: purple;
+
+		  }
+}
+
 .thanks{
 	width: 100vw;
 	height: 100vh;
