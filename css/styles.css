@@ -2646,7 +2646,7 @@ h5.title-largest{
 .title-word-center{
   position: absolute;
   width: 100%;
-  left:50%;
+  text-align: center;
   top: 50.85vh;
   animation-delay:2.1s;
   padding:0;
