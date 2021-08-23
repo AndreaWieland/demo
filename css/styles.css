@@ -2631,14 +2631,14 @@ h5.title-largest{
 /* tell */
 .title-word-background:nth-child(3){
   animation-delay:1.7s;
-  top: 31.5vh;
+  top: 33.8vh;
   left: 37%;
 }
 
 /* the */
 .title-word-background:nth-child(4){
   animation-delay:1.9s;
-  top: 39.7vh;
+  top: 40.4vh;
   left: 48%;
 }
 
@@ -2647,7 +2647,7 @@ h5.title-largest{
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 50.85vh;
+  top: 50vh;
   animation-delay:2.1s;
   padding:0;
   margin:0;
@@ -2665,7 +2665,7 @@ h5.title-largest{
 /* story */
 .title-word-background:nth-child(6){
   animation-delay:2.8s;
-  top: 68.2vh;
+  top: 69.2vh;
   left: 55%;
 }
 
