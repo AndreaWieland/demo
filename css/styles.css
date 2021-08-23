@@ -2596,6 +2596,7 @@ a:hover.back-to-top {
   margin: 0;
   padding: 0;
   height: 6.75vh;
+  background-color: red;
 }
 
 .title-word-background > h1{
