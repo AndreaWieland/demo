@@ -1860,7 +1860,7 @@ a:hover.back-to-top {
 /*     21. Media Queries     */
 /*****************************/	
 /* Min-width width 768px */
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
 	
 	/* General Styles */
 	.p-heading {
