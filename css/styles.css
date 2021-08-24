@@ -2898,27 +2898,7 @@ animation-duration: 145s;
 	left: 40%;
   }
 
-  #project-grid{
-	animation-name: revealgrid;
-	animation-iteration-count:1;
-	animation-duration: 3s;
-	/* animation-delay: 4s; */
-	animation-timing-function: linear;
-	animation-fill-mode: forwards;
-  }
-
-  @keyframes revealgrid {
-	0%   {  
-		display: block;
-	}
-	50%{
-		display: none;
-	}
-
-	100% {
-		display: block;
-	}
-  }
+  
 	.filter .element-item .element-item-overlay span { 
 		height:16rem;
 	}
@@ -2930,6 +2910,9 @@ animation-duration: 145s;
 
 }
 
+.forceRefresh{
+	border: .5px solid white;
+}
 .policy{
 	position: relative;
 	width: 60%;
