@@ -2751,6 +2751,19 @@ animation-duration: 145s;
   100% {transform: translateX(-100vw) }
 }
 
+@keyframes revealgrid {
+	0%   {  
+		transform: translateX(0);
+	}
+	50%{
+		transform: translateX(-50px);
+	}
+
+	100% {
+		transform: translateX(50px;);
+	}
+  }
+
 .thanks{
 	width: 100vw;
 	height: 100vh;
@@ -2897,9 +2910,16 @@ animation-duration: 145s;
   }
 
   .grid{
-	display: flex;
-	flex-direction: column;
-	}
+	animation-name: revealgrid;
+	animation-iteration-count:1;
+	animation-duration: 3s;
+	/* animation-delay: 4s; */
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+  }
+
+  
+
 	.filter .element-item .element-item-overlay span { 
 		height:16rem;
 	}
@@ -2907,9 +2927,6 @@ animation-duration: 145s;
 	.spinner-wrapper{
 		display: none;
 	}
-
-  .slogan-window{
-  }
 }
 
 .policy{
