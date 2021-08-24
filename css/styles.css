@@ -2753,6 +2753,9 @@ animation-duration: 145s;
 }
 
 @media only screen and (max-width: 1025px) {
+	.counter-info{
+		display: inline-block;
+	}
 	h5.title-regular{
 		font-size: 7vh;
 		text-shadow: none;
