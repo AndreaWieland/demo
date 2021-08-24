@@ -16,7 +16,7 @@
 			var grid = document.getElementById("project-grid");
 			grid.classList.add("forceRefresh");
 			grid.classList.remove("forceRefresh");
-		}, 1500);
+		}, 2000);
 
 
 	});
