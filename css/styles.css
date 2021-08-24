@@ -1365,7 +1365,7 @@ input[type='checkbox'] {
 
 /* Hover Animation */
 .filter .element-item {
-	position: relative;
+	/* position: relative; */
 	float: left;
 	overflow: hidden;
 	width: 100%;
