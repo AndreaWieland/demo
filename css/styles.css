@@ -1618,8 +1618,7 @@ input[type='checkbox'] {
 }
 
 .counter #counter .cell {
-	display: inline-block;
-	/* width: 9.5rem; */
+	/* display: inline-block; */
 	margin-bottom: 0.25rem;
 }
 
@@ -2753,8 +2752,11 @@ animation-duration: 145s;
 }
 
 @media only screen and (max-width: 1025px) {
-	.counter-info{
-		display: inline-block;
+	.counter #counter .cell {
+		/* display: inline-block; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	h5.title-regular{
 		font-size: 7vh;
