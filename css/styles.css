@@ -2919,11 +2919,13 @@ animation-duration: 145s;
 		display: block;
 	}
   }
-
-  
-
 	.filter .element-item .element-item-overlay span { 
 		height:16rem;
+	}
+
+	filter .element-item img {
+		height: 16rem;
+		margin: 0;
 	}
 
 }
