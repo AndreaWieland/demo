@@ -2412,6 +2412,7 @@ a:hover.back-to-top {
 	}
 
 	.filter .element-item .element-item-overlay span { 
+		height:16rem;
 		top: 45%;
 	}
 	/* end of projects */
