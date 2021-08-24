@@ -12,12 +12,11 @@
 			}, 100);
 		}
 		hidePreloader();
-		
 		setTimeout(function() {
 			var grid = document.getElementById("project-grid");
 			grid.classList.add("forceRefresh");
 			grid.classList.remove("forceRefresh");
-		}, 500);
+		}, 1500);
 
 
 	});
