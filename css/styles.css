@@ -2402,6 +2402,10 @@ a:hover.back-to-top {
 
 
 	/* Projects */
+	.grid{
+		display: flex;
+		flex-direction: column;
+	}
 	.filter .element-item {
 		width: 16rem; /* to eliminate grid overflow problem on hard refresh */
 		height: 16rem;
