@@ -2751,18 +2751,7 @@ animation-duration: 145s;
   100% {transform: translateX(-100vw) }
 }
 
-@keyframes revealgrid {
-	0%   {  
-		transform: translateX(0);
-	}
-	50%{
-		transform: translateX(-50px);
-	}
 
-	100% {
-		transform: translateX(50px;);
-	}
-  }
 
 .thanks{
 	width: 100vw;
@@ -2909,13 +2898,26 @@ animation-duration: 145s;
 	left: 40%;
   }
 
-  .grid{
+  #project-grid{
 	animation-name: revealgrid;
 	animation-iteration-count:1;
 	animation-duration: 3s;
 	/* animation-delay: 4s; */
 	animation-timing-function: linear;
 	animation-fill-mode: forwards;
+  }
+
+  @keyframes revealgrid {
+	0%   {  
+		display: block;
+	}
+	50%{
+		display: none;
+	}
+
+	100% {
+		display: block;
+	}
   }
 
   
