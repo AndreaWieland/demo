@@ -2057,7 +2057,7 @@ a:hover.back-to-top {
 
 
 /* Min-width width 992px */
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 
 	.title-column{
 		background-image: linear-gradient(35deg, #A19B9A,#F9F7F8, #A19B9A);
