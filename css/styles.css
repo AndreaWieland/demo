@@ -2402,10 +2402,7 @@ a:hover.back-to-top {
 
 
 	/* Projects */
-	.grid{
-		display: flex;
-		flex-direction: column;
-	}
+
 	.filter .element-item {
 		width: 16rem; /* to eliminate grid overflow problem on hard refresh */
 		height: 16rem;
@@ -2844,6 +2841,15 @@ animation-duration: 145s;
 	height: 11.2vh;
 	left: 40%;
   }
+
+  .grid{
+	display: flex;
+	flex-direction: column;
+	}
+
+	.spinner-wrapper{
+		display: none;
+	}
 
   .slogan-window{
   }
