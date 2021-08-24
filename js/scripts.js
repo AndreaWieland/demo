@@ -9,9 +9,11 @@
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
 				preloader.fadeOut(preloaderFadeOutTime);
-			}, 500);
+			}, 100);
 		}
 		hidePreloader();
+
+
 	});
 
 	
