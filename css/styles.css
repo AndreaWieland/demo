@@ -2797,6 +2797,7 @@ animation-duration: 145s;
 	
 	.thank-you-top{
 		font-size: 10vh;
+		top: 25vh;
 	}
 	
 	.thank-you-bottom{
